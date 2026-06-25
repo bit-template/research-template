@@ -71,7 +71,7 @@ Course details are maintained in the `courses` repository.
 
 See:
 
-- [COURSE_CATALOG.md](https://github.com/bit-template/courses/COURSE_CATALOG.md)
+- [COURSE_CATALOG.md](https://github.com/bit-template/courses/blob/main/COURSE_CATALOG.md)
 
 ---
 
