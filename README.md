@@ -60,6 +60,21 @@ List people involved in this research work.
 
 ---
 
+## Required Learning
+
+Before contributing, complete the following learning paths:
+
+- Foundation Learning Path
+- Research Learning Path
+
+Course details are maintained in the `courses` repository.
+
+See:
+
+- [COURSE_CATALOG.md](https://github.com/bit-template/courses/COURSE_CATALOG.md)
+
+---
+
 ## 📝 Notes
 
 Add any additional information, references, or comments.
