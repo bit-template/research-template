@@ -1,0 +1,143 @@
+name: Course Suggestion
+description: Suggest a new course for the BIT Guidances learning catalog
+title: "[COURSE-SUGGESTION] "
+labels:
+  - course
+  - suggestion
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Course Suggestion
+
+        Use this template to suggest a new course for inclusion in the Course Catalog.
+
+  - type: input
+    id: course_name
+    attributes:
+      label: Course Name
+      placeholder: Git & GitHub Fundamentals
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Programming
+        - Git
+        - GitHub
+        - Linux
+        - Python
+        - Java
+        - C/C++
+        - DevOps
+        - Docker
+        - Kubernetes
+        - Cloud
+        - Networking
+        - AI
+        - Machine Learning
+        - AI Agents
+        - FaaS
+        - Cybersecurity
+        - Research
+        - Documentation
+        - Project Management
+        - Soft Skills
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+      placeholder: Udemy / Coursera / YouTube / Internal / Official Documentation
+    validations:
+      required: true
+
+  - type: textarea
+    id: course_link
+    attributes:
+      label: Course Link
+      description: URL to the course or learning resource
+      value: |
+        https://
+
+  - type: dropdown
+    id: level
+    attributes:
+      label: Difficulty Level
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+
+  - type: input
+    id: duration
+    attributes:
+      label: Estimated Duration
+      placeholder: 6 Hours
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Course Description
+      placeholder: |
+        Briefly describe what this course teaches.
+    validations:
+      required: true
+
+  - type: textarea
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      value: |
+        None
+
+  - type: checkboxes
+    id: learning_paths
+    attributes:
+      label: Recommended Learning Paths
+      options:
+        - label: Foundation
+        - label: Research
+        - label: AI Agents
+        - label: FaaS
+        - label: DevOps
+        - label: Cybersecurity
+        - label: Cloud
+        - label: Project Management
+
+  - type: textarea
+    id: justification
+    attributes:
+      label: Why should this course be added?
+      placeholder: |
+        Explain why this course is valuable for contributors.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternative Resources
+      description: List equivalent books, videos, or documentation if available.
+      value: |
+        - Official Documentation
+        - YouTube Playlist
+        - Book
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      options:
+        - label: I have completed this course.
+        - label: I recommend this course based on my experience.
+        - label: This course is suitable for the selected learning paths.
