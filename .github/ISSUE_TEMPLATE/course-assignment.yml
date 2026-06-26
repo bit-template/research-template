@@ -42,7 +42,7 @@ body:
     attributes:
       label: Course Repository
       description: Repository containing the learning materials
-      placeholder: "bit-guidances/courses"
+      placeholder:  "https://github.com/bit-template/courses/blob/main/COURSE_CATALOG.md"
 
   - type: textarea
     id: objective
