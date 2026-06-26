@@ -43,7 +43,7 @@ body:
       label: Course Repository
       description: Repository containing the learning materials
       value: |
-        https://github.com/bit-template/courses/blob/main/COURSE_CATALOG.md
+        https://github.com/bit-template/courses/blob/main/catalog/PUB-001.md
 
   - type: textarea
     id: objective
