@@ -37,12 +37,13 @@ body:
       description: Foundation, Research, AI Agent, FaaS, DevOps, etc.
       placeholder: "Foundation"
 
-  - type: input
+  - type: textarea
     id: course_repository
     attributes:
       label: Course Repository
       description: Repository containing the learning materials
-      placeholder:  "https://github.com/bit-template/courses/blob/main/COURSE_CATALOG.md"
+      value: |
+        https://github.com/bit-template/courses/blob/main/COURSE_CATALOG.md
 
   - type: textarea
     id: objective
